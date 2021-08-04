@@ -11,6 +11,7 @@
 		01F6FBAB26BA41EE0086B504 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F6FBAA26BA41EE0086B504 /* ContentView.swift */; };
 		01F6FBAD26BA41F20086B504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F6FBAC26BA41F20086B504 /* Assets.xcassets */; };
 		01F6FBB026BA41F20086B504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F6FBAF26BA41F20086B504 /* Preview Assets.xcassets */; };
+		01F6FBB826BA422E0086B504 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F6FBB726BA422E0086B504 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		01F6FBAC26BA41F20086B504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01F6FBAF26BA41F20086B504 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01F6FBB126BA41F20086B504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F6FBB726BA422E0086B504 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				01F6FBA826BA41EE0086B504 /* MyTimerApp.swift */,
 				01F6FBAA26BA41EE0086B504 /* ContentView.swift */,
+				01F6FBB726BA422E0086B504 /* SettingView.swift */,
 				01F6FBAC26BA41F20086B504 /* Assets.xcassets */,
 				01F6FBB126BA41F20086B504 /* Info.plist */,
 				01F6FBAE26BA41F20086B504 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F6FBB826BA422E0086B504 /* SettingView.swift in Sources */,
 				01F6FBAB26BA41EE0086B504 /* ContentView.swift in Sources */,
 				01F6FBA926BA41EE0086B504 /* MyTimerApp.swift in Sources */,
 			);
