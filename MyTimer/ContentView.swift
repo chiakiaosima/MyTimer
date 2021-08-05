@@ -64,7 +64,7 @@ struct ContentView: View {
                                 // もしタイマーが、実行中だったら停止
                                 if unwrapedTimerHandler.isValid == true {
                                     // タイマー停止
-                                    unwrapedTimerHandler.isValiddate()
+                                    unwrapedTimerHandler.invalidate()
                                 }
                             }
                         }) {
@@ -84,6 +84,11 @@ struct ContentView: View {
                     } // HStackここまで
                 }// VStackここまで
             } // ZStackここまで
+            // 画面が表示される時に実行される
+            .onAppear {
+                // カウント（経過時間）の変数を初期化
+                count = 0
+            } // onAppear ここまで
             // ナビゲーションバーにボタンを追加
             .navigationBarItems(trailing:
                 // ナビゲーション遷移
@@ -128,7 +133,7 @@ struct ContentView: View {
         timerHandler = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
             // タイマー実行時に呼び出される
             // 1秒毎に実行されてカウントダウンする関数を実行する
-            conutDownTimer()
+            countDownTimer()
         }
     } // startTimer()　ここまで
 } //contentViewここまで
